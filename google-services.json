@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58361406299",
+    "project_id": "premium-dining",
+    "storage_bucket": "premium-dining.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58361406299:android:2f27cab0fd50d88826307e",
+        "android_client_info": {
+          "package_name": "com.dining.premium"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4LqJhItuNf-y8lsr8QHOltV3eN11vXYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
