@@ -1,10 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
+import HomeHeader from '../../components/HomeHeader';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Premium Dining</Text>
-      <Text style={styles.subtitle}>Discover exceptional restaurants</Text>
+      <HomeHeader />
+      <View style={styles.body}>
+        <Text style={styles.title}>Premium Dining</Text>
+        <Text style={styles.subtitle}>Discover exceptional restaurants</Text>
+      </View>
     </View>
   );
 }
@@ -13,6 +17,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+  },
+  body: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
